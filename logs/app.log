@@ -1,0 +1,21 @@
+2025-12-17 21:00:45 | WARNING  | fraud_detection.yolo_detector:__init__:17 - Could not load YOLO model at models/yolov8_aadhaar.pt. Using default yolov8n.pt for demo.
+2025-12-17 21:00:48 | INFO     | api.main:startup_event:15 - Starting Aadhaar Verification API...
+2025-12-17 21:01:10 | WARNING  | fraud_detection.yolo_detector:__init__:17 - Could not load YOLO model at models/yolov8_aadhaar.pt. Using default yolov8n.pt for demo.
+2025-12-17 21:01:11 | INFO     | api.main:startup_event:15 - Starting Aadhaar Verification API...
+2025-12-17 21:01:53 | INFO     | api.routes:verify_document:40 - Processing file: C:\Users\venka\AppData\Local\Temp\tmp7qyb9zj7.jpg
+2025-12-17 21:01:56 | INFO     | preprocessing.deskew:deskew_image:73 - Detected skew angle: -90.0
+2025-12-17 21:02:02 | ERROR    | llm.openai_refiner:refine_extracted_data:53 - Error refining data with OpenAI: Error code: 401 - {'error': {'code': '401', 'message': 'Access denied due to invalid subscription key or wrong API endpoint. Make sure to provide a valid key for an active subscription and use a correct regional API endpoint for your resource.'}}
+2025-12-17 21:03:00 | WARNING  | fraud_detection.yolo_detector:__init__:17 - Could not load YOLO model at models/yolov8_aadhaar.pt. Using default yolov8n.pt for demo.
+2025-12-17 21:03:00 | INFO     | api.main:startup_event:15 - Starting Aadhaar Verification API...
+2025-12-17 21:03:07 | INFO     | api.routes:verify_document:40 - Processing file: C:\Users\venka\AppData\Local\Temp\tmpvlu9v_t4.jpg
+2025-12-17 21:03:13 | INFO     | preprocessing.deskew:deskew_image:73 - Detected skew angle: -90.0
+2025-12-17 21:03:19 | ERROR    | llm.openai_refiner:refine_extracted_data:53 - Error refining data with OpenAI: Error code: 404 - {'error': {'code': 'DeploymentNotFound', 'message': 'The API deployment for this resource does not exist. If you created the deployment within the last 5 minutes, please wait a moment and try again.'}}
+2025-12-17 21:05:15 | WARNING  | fraud_detection.yolo_detector:__init__:17 - Could not load YOLO model at models/yolov8_aadhaar.pt. Using default yolov8n.pt for demo.
+2025-12-17 21:05:15 | INFO     | api.main:startup_event:15 - Starting Aadhaar Verification API...
+2025-12-17 21:05:21 | INFO     | api.routes:verify_document:40 - Processing file: C:\Users\venka\AppData\Local\Temp\tmpvdzfoj9m.jpg
+2025-12-17 21:05:23 | INFO     | preprocessing.deskew:deskew_image:73 - Detected skew angle: -90.0
+2025-12-17 21:05:29 | ERROR    | llm.openai_refiner:refine_extracted_data:54 - Azure OpenAI Deployment '' not found. Please check AZURE_OPENAI_DEPLOYMENT_NAME in .env
+2025-12-17 21:06:52 | INFO     | api.routes:verify_document:40 - Processing file: C:\Users\venka\AppData\Local\Temp\tmpl2rm2wvz.jpg
+2025-12-17 21:06:55 | INFO     | preprocessing.deskew:deskew_image:73 - Detected skew angle: -90.0
+2025-12-17 21:06:55 | WARNING  | api.routes:verify_document:50 - Image quality failed: {'blur_score': 2750.2267926192285, 'lighting_score': 219.4494140625, 'is_blurry': False, 'is_dark': False, 'is_overexposed': True, 'quality_pass': False}
+2025-12-17 21:06:58 | ERROR    | llm.openai_refiner:refine_extracted_data:54 - Azure OpenAI Deployment '' not found. Please check AZURE_OPENAI_DEPLOYMENT_NAME in .env
