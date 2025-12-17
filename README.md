@@ -4,9 +4,9 @@ A production-ready AI system for Aadhaar document verification and fraud detecti
 
 ## 🎥 Project Demo
 
-![Project Demo](staticFileDoc/Video/Project%20Demo.mp4)
+[**▶️ Watch Project Demo Video**](staticFileDoc/Video/Project%20Demo.mp4)
 
-*(Note: If the video doesn't play directly, please check the `staticFileDoc/Video/` folder)*
+*(Note: Click the link above to play the video locally or download it)*
 
 ---
 
